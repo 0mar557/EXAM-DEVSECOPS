@@ -1,35 +1,4 @@
-# Tout ignorer par défaut
-*
-
-# Garder ce fichier
-!.gitignore
-
-# Fichiers principaux de l'exam
-!Dockerfile
-!docker-compose.yml
-!.dockerignore
-!sbom.json
-!RAPPORT.pdf
-!RAPPORT.docx
-
-# Sources écrites / documents de travail
-!app.py
-!test_app.py
-!requirements.txt
-
-# Dossiers K8s
-!k8s/
-!k8s/*.yaml
-
-# GitHub Actions
-!.github/
-!.github/workflows/
-!.github/workflows/ci.yml
-
-# Captures
-!CAPTURES/
-!CAPTURES/**
-
-# Optionnel : garder un dossier racine si tu crées une archive EXAM-DEVSECOPS/
-!EXAM-DEVSECOPS/
-!EXAM-DEVSECOPS/**
+venv/
+__pycache__/
+.pytest_cache/
+logs.txt
